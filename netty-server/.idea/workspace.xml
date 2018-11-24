@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5da5921-9df8-45a7-9744-c3d86fe7eb3b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/netty-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/player" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/player/command" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/player/messageSend" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/game/event/EventNotifyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/event/EventNotifyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/game/logic/player/GamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/logic/player/GamePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/game/logic/player/cmd/LoginCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/logic/player/cmd/LoginCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/game/logic/player/protocol/PlayerProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/logic/player/protocol/PlayerProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/game/network/dispatcher/NetMessageDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/network/dispatcher/NetMessageDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/game/network/session/SessionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/network/session/SessionContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/game/sysInit/ApplicationInitContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/sysInit/ApplicationInitContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/util/type/player/CorePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/player/CorePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/util/type/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/util/type/player/PlayerContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/player/PlayerContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/util/type/player/command/PlayerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/player/command/PlayerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/warm/util/type/player/messageSend/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/warm/game/player/messageSend/MessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/com/warm/game/protocol/user/UserMsgProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/com/warm/game/protocol/user/UserMsgProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/user.proto" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-37026788">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/warm/game/loadable/Loadable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/warm/game/loadable/ScanInitBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/warm/game/business/core/data/GameMode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1436" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="netty-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="warm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="warm" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5da5921-9df8-45a7-9744-c3d86fe7eb3b" name="Default" comment="" />
+      <created>1511446249392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511446249392</updated>
+      <workItem from="1511446253067" duration="239000" />
+      <workItem from="1537407693244" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="245000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="23" width="1436" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33931133" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50277776" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49722221" weight="0.32941177" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/warm/game/loadable/Loadable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/warm/game/loadable/ScanInitBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/warm/game/business/core/data/GameVKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/warm/game/business/core/data/GameMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

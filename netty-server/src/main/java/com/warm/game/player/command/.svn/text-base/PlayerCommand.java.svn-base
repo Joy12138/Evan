@@ -1,0 +1,14 @@
+package com.warm.util.type.player.command;
+
+import com.warm.game.network.command.Command;
+import com.warm.game.network.session.Session;
+import com.warm.game.network.transMsg.IMessage;
+
+public abstract class PlayerCommand implements Command {
+
+	@Override
+	public void messageHandler(Session session, IMessage req) throws Exception {
+		long playerId = req.getId();
+		Player player = 
+	}
+}

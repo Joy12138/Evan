@@ -1,0 +1,25 @@
+package com.warm.game.logic.player;
+
+import com.warm.game.logic.player.protocol.PlayerProtocol;
+import com.warm.game.network.transMsg.Message;
+import com.warm.game.protocol.player.PlayerProto.PlayerInfoMsg;
+import com.warm.util.type.player.CorePlayer;
+
+public class GamePlayer extends CorePlayer{
+
+	public GamePlayer(long playerId) {
+		super(playerId);
+	}
+
+	public void sendPlayerInfoMsg(Message message) {
+		this.sendMessage(Message.build(PlayerProtocol.Server.PLAYER_INFO,buildPlayerInfoMsg()));
+	}
+
+	protected PlayerInfoMsg buildPlayerInfoMsg() {
+		PlayerInfoMsg.Builder builder = PlayerInfoMsg.newBuilder();
+		builder.setPlayerId(123);
+		builder.setNickname("evan");
+		return builder.build();
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.warm.util.type.player;
+/*
+ * 拥有管理所有玩家的线程池
+ * */
+public class PlayerContext {
+	private final PlayerCollection players;
+	
+	 private static class PlayerCollection {
+		 ConcurrentHashMap<Long,PlayerInfo>
+	 }
+}

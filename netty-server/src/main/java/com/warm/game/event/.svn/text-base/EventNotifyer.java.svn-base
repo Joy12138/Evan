@@ -1,0 +1,5 @@
+package com.warm.game.event;
+
+public class EventNotifyer {
+	
+}

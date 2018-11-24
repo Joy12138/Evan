@@ -1,0 +1,16 @@
+package com.warm.util.type.player;
+
+/*
+ * 玩家的实体类和对应的玩家操作
+ * */
+public abstract class Player {
+	protected long playerId;
+
+	public Player(long playerId) {
+		this.playerId = playerId;
+	}
+
+	public long getPlayerId() {
+		return playerId;
+	}
+}

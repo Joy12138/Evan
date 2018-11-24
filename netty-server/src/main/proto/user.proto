@@ -1,0 +1,20 @@
+option java_package = "com.warm.game.protocol.user";
+option java_outer_classname = "UserMsgProto";
+message UserMsg{
+	optional string userName = 1;
+	optional int32 password = 2;
+}
+
+message chkLoginMsg{
+	optional bool isLogin = 1;
+}
+
+message playerInfoMsg{
+	optional int64 playerId = 1;
+	optional string Name = 2;
+	optional int32 level = 3;
+}
+
+message moveMsg{
+	optional int32 flag = 1;
+}
