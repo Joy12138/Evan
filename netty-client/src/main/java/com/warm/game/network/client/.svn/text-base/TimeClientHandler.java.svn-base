@@ -1,0 +1,56 @@
+package com.warm.game.network.client;
+
+import com.warm.game.message.IMessage;
+import com.warm.game.message.Message;
+import com.warm.game.network.session.Session;
+import com.warm.game.network.session.SessionServer;
+import com.warm.game.protocol.user.UserMsgProto.chkLoginMsg;
+import com.warm.game.user.UserMessageBuilder;
+import com.warm.game.user.entity.User;
+
+import io.netty.channel.ChannelHandlerAdapter;
+import io.netty.channel.ChannelHandlerContext;
+
+public class TimeClientHandler extends ChannelHandlerAdapter {
+	private UserMessageBuilder userMessageBuilder;
+
+	public TimeClientHandler() {
+		userMessageBuilder = new UserMessageBuilder();
+	}
+
+	/*
+	 * 20170804这里需要关闭ChannelHandlerContext－－还未关闭
+	 * */
+	@Override
+	public void channelActive(ChannelHandlerContext ctx) throws Exception { // (1)
+		User user = new User();
+		user.setPassword(123);
+		user.setUserName("zhj");
+		ctx.write(Message.build((short)10001,(long)123321));
+		ctx.flush();
+	}
+
+	@Override
+	public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+		IMessage tmp = (IMessage) msg;
+		chkLoginMsg req = chkLoginMsg.parseFrom(tmp.getBody());
+		System.out.println("Receive server response:[" + req.getIsLogin() + "]");
+	}
+
+	@Override
+	public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+		System.out.println("Client Read complete");
+		ctx.flush();
+	}
+	
+	@Override
+	public void channelRegistered(ChannelHandlerContext ctx) throws Exception{
+		Session session = new SessionServer(ctx.channel());
+	}
+	
+	@Override
+	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
+		cause.printStackTrace();
+		ctx.close();
+	}
+}
